@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BEM</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+<header class="header">
+	<div class="logo header__logo">
+		<img class="logo__image" src="http://placehold.it/640x200/37bee5/ffffff/&text=logo.png" alt="" >
+	</div>
+	<nav class="menu header__menu">
+		<ul class="menu__list">
+			<li class="menu__item menu__item--active">
+				<a href="#" class="menu__link">Главная</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__link">Каталог</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__link">Контакты</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="search header__search">
+		<input class="search__field" name="search" placeholder="Search" type="text">
+		<input class="search__button" type="submit">
+	</div>
+	<div class="header__button">
+		<button class="btn btn__blue" type="button">Заказать звонок</button>
+	</div>
+</header>
+
+<main class="main-content">
+	<div class="main-content__left">
+		<div class="main-content__sidebar categories">
+			<a href="#" class="categories__link categories__link--active">Link_1</a>
+			<a href="#" class="categories__link">Link_2</a>
+			<a href="#" class="categories__link">Link_3</a>
+			<a href="#" class="categories__link">Link_4</a>
+		</div>
+	</div>
+	<section class="main-content__center content">
+		<h1>Heading</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque consequuntur illo laborum maiores nemo
+			praesentium quaerat quia reiciendis sint? Cumque hic maxime omnis perferendis quae quo sed soluta,
+			tempore!
+		</p>
+		<ul>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Corporis ipsa officiis omnis vitae.</li>
+			<li>Adipisci animi aut illum veritatis!</li>
+			<li>Adipisci corporis eius nulla sapiente.</li>
+			<li>Architecto ex ipsa minima sed!</li>
+		</ul>
+	</section>
+	<aside class="main-content__right">
+		<div class="main-content__sidebar banner">
+			<img src="http://placehold.it/640x400/3a63e5/ffffff/&text=banner.png" alt="" class="banner__image">
+		</div>
+	</aside>
+</main>
+
+<footer class="footer">
+	<div class="footer__left">
+		<p class="footer__copy">
+			&copy; 2018
+		</p>
+	</div>
+	<div class="footer__right">
+		<div class="footer__phone phone">
+			<a href="tel:+79997779977" class="phone__link" >+7 (999) 777 99 77</a>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

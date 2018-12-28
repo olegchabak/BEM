@@ -1,0 +1,108 @@
+img
+	max-width: 100%
+.container
+	padding: 0
+	margin: 0
+
+.btn
+	display: block
+	width: 100%
+	font-size: 16px
+	cursor: pointer
+	border: 1px solid #666
+	background-color: #ffff00
+	border-radius: 5px
+	padding: 7px 0
+	box-sizing: border-box
+
+.btn__blue
+	background-color: #00f
+	color: #ffffff
+
+.header
+	background-color: #eeeeee
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+	align-items: center
+	&__logo
+		flex-basis: 8%
+		padding: 0 10px
+		box-sizing: border-box
+	&__menu
+		flex-basis: 35%
+		padding: 0 10px
+		box-sizing: border-box
+		margin: 10px 0
+	&__search
+		flex-basis: 30%
+		padding: 0 10px
+		box-sizing: border-box
+		margin: 10px 0
+	&__button
+		flex-basis: 20%
+		padding: 0 10px
+		box-sizing: border-box
+		margin: 10px 0
+.logo
+	&__image
+		display: block
+		max-width: 100%
+		height: auto
+
+.menu
+	&__list
+		display: flex
+		flex-wrap: wrap
+		list-style: none
+		margin: 0 10px
+		padding: 0
+	&__item
+		margin: 0 10px
+	&__link
+		color: #000066
+		font-size: 16px
+		&:hover
+			text-decoration: none
+.search
+	display: flex
+	&__field
+		display: block
+		margin-right: 15px
+		flex-basis: calc(70% - 15px)
+		border: 1px solid #000000
+		padding: 7px 10px
+		box-sizing: border-box
+		font-size: 16px
+	&__button
+		flex-basis: 30%
+		display: block
+		padding: 7px 0
+		border: 1px solid #000000
+		font-size: 16px
+		background-color: #d0Ff30
+		cursor: pointer
+
+.main-content
+	display: flex
+	&__left
+		flex-basis: 250px
+	&__center
+		flex-basis: calc(100% - 250px - 250px)
+	&__right
+		flex-basis: 250px
+	&__sidebar
+		margin: 20px 0
+
+.categories
+	&__link
+		border: 1px solid #000000
+		padding: 7px 0
+		text-align: center
+		display: block
+		margin: 10px 0
+		text-decoration: none
+		color: #0000ff
+		&--active
+			background-color: #f00
+			color: #ffffff
